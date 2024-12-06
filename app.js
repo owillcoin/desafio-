@@ -21,7 +21,7 @@ function verificarSenha() {
         mensagem.innerText = "tem que preencher, assim como você preenche o meu ser por completo.";
     } else {
         // Verifica se o usuário inseriu "Mily" como senha
-        if (senha === "sim aceito") {
+        if (senha === "sim") {
             mensagem.innerText = "Você não vai se arrepender, Moça maravilhosa. " + usuario + "!";
             // Redireciona o usuário para o link desejado
             window.location.href = "https://www.youtube.com/watch?v=lV2plyhSRBU"; // Substitua com o link desejado
